@@ -1,0 +1,44 @@
+<?php
+
+namespace NadzorServera\Skijasi\Module\LMSModule\Controllers;
+
+use Exception;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use NadzorServera\Skijasi\Controllers\Controller;
+use NadzorServera\Skijasi\Helpers\ApiResponse;
+
+class FileController extends Controller
+{
+    public function upload(Request $request)
+    {
+        try {
+            $request->validate([
+                'file'  =>  'required|file|mimes:jpeg,png,jpg,pdf|max:2048',
+            ]);
+
+            $file = $request->input('file');
+
+            $fileName = 'lesson-'.time().'.'.$file->getClientOriginalExtension();
+
+            $path = $file->storeAs('files', $fileName);
+
+            Storage::url($path);
+
+            return ApiResponse::success($path);
+        } catch (Exception $e) {
+            return ApiResponse::failed($e);
+        }
+    }
+
+    public function delete($fileName)
+    {
+        $status = Storage::disk('public')->delete('files/'.$fileName);
+
+        if ($status) {
+            return ApiResponse::success('succesfully delete file');
+        }
+
+        return ApiResponse::failed('there is no file with given name');
+    }
+}

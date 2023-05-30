@@ -1,0 +1,53 @@
+{
+  "name": "skijasi/lms-module",
+  "version": "1.0.0",
+  "description": "Learning management system on skijasi",
+  "keywords": [
+      "laravel",
+      "admin",
+      "panel",
+      "dashboard",
+      "pwa",
+      "vue",
+      "generator",
+      "lms",
+      "skijasi"
+  ],
+  "license": "MIT",
+  "homepage": "https://skijasi.uatech.co.id/",
+  "support": {
+    "issues": "https://github.com/nadzorservera-croatia/skijasi-lms-module/issues",
+    "discussion": "https://github.com/nadzorservera-croatia/skijasi-lms-module/discussions",
+    "source": "https://github.com/nadzorservera-croatia/skijasi-lms-module"
+  },
+  "type": "library",
+  "authors": [
+    {
+      "name": "NADZORSERVERA",
+      "email": "hello@uatech.co.id"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "autoload": {
+    "psr-4": {
+      "NadzorServera\\Skijasi\\Module\\LMSModule\\": "src/",
+      "NadzorServera\\Skijasi\\Module\\LMSModule\\Seeders\\": "src/Seeders",
+      "NadzorServera\\Skijasi\\Module\\LMSModule\\Factories\\": "src/Factories"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NadzorServera\\Skijasi\\Module\\LMSModule\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NadzorServera\\Skijasi\\Module\\LMSModule\\Providers\\LMSModuleProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
