@@ -1,6 +1,6 @@
 # Contribute to Skijasi
 
-Skijasi is an open-source project administered by [nadzorservera](https://soft.uatech.co.id). We appreciate your interest and efforts to contribute to Skijasi.
+Skijasi is an open-source project administered by [nadzorservera](https://soft.nadzorserveraweb.hr). We appreciate your interest and efforts to contribute to Skijasi.
 
 All efforts to contribute are highly appreciated, we recommend you to talk to a maintainer prior to spending a lot of time making a pull request that may not align with the project roadmap.
 
@@ -44,8 +44,8 @@ To do : complete this section -->
 
 ## Development Workflow
 
-Before developing Skijasi, please get SKIJASI_LICENSE_KEY by register on <a href="https://skijasi.uatech.co.id/" target="_blank">Skijasi</a> or contact skijasi core team. This key must be included in the laravel project's .env.
-Steps for registering and getting a license on Skijasi Dashboard can be found on <a href="https://skijasi-docs.uatech.co.id/docs/en/getting-started/installation/" target="_blank">Skijasi Docs</a>.
+Before developing Skijasi, please get SKIJASI_LICENSE_KEY by register on <a href="https://skijasi.nadzorserveraweb.hr/" target="_blank">Skijasi</a> or contact skijasi core team. This key must be included in the laravel project's .env.
+Steps for registering and getting a license on Skijasi Dashboard can be found on <a href="https://skijasi-docs.nadzorserveraweb.hr/docs/en/getting-started/installation/" target="_blank">Skijasi Docs</a>.
 
 
 ### Installation step
@@ -127,7 +127,7 @@ Before submitting an issue you need to make sure:
 - You are experiencing a concrete technical issue with Skijasi.
 - You have already searched for related [issues](https://github.com/nadzorservera-croatia/skijasi-lms-module/issues), and found none open (if you found a related _closed_ issue, please link to it from your post).
 - You are not asking a question about how to use Skijasi or about whether or not Skijasi has a certain feature. For general help using Skijasi, you may:
-  - Refer to [the official Skijasi documentation](https://skijasi-docs.uatech.co.id).
+  - Refer to [the official Skijasi documentation](https://skijasi-docs.nadzorserveraweb.hr).
   - Ask a question on [github discussion](https://github.com/nadzorservera-croatia/skijasi-lms-module/discussions).
 - Your issue title is concise, on-topic, and polite.
 - You provide steps to reproduce your issue.

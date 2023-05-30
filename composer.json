@@ -14,7 +14,7 @@
       "skijasi"
   ],
   "license": "MIT",
-  "homepage": "https://skijasi.uatech.co.id/",
+  "homepage": "https://skijasi.nadzorserveraweb.hr/",
   "support": {
     "issues": "https://github.com/nadzorservera-croatia/skijasi-lms-module/issues",
     "discussion": "https://github.com/nadzorservera-croatia/skijasi-lms-module/discussions",
@@ -24,7 +24,7 @@
   "authors": [
     {
       "name": "NADZORSERVERA",
-      "email": "hello@uatech.co.id"
+      "email": "hello@nadzorserveraweb.hr"
     }
   ],
   "minimum-stability": "alpha",

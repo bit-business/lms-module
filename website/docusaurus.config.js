@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Skijasi LMS Module Documentation",
   tagline: "Skijasi lms module official documentation",
-  url: "https://skijasi-lms.uatech.co.id",
+  url: "https://skijasi-lms.nadzorserveraweb.hr",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

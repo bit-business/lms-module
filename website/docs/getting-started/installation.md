@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Module
 
-1. [Install skijasi](https://skijasi-docs.uatech.co.id/getting-started/installation) first.
+1. [Install skijasi](https://skijasi-docs.nadzorserveraweb.hr/getting-started/installation) first.
 2. Make sure you already run the migration and skijasi seeder, even if you're using docker.
 3. Run the following command to install skijasi LMS module
    ```bash
